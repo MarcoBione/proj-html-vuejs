@@ -90,5 +90,7 @@ export const store = reactive({
             ]
         }
     ],
-
+    title: 'Distant learning for further expansion',
+    subtitle: 'Learning is a life-long journey that in fact we never find the terminate stop. Stop searching, enjoy the process.',
+    btninfo: 'Download free guide',
 });

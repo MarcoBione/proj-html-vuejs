@@ -1,1 +1,61 @@
 @import 'bootstrap/scss/bootstrap';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+$light: #FFFFFF;
+$concrete : #696969;
+$emerald: #20AD96;
+$lightgrey: #F5F7FA;
+$lightgrey2: #F8F8F8;
+$lightcrema: #F5F1ED;
+$indac: #3F3A64;
+$lightindac: #8C89A2;
+
+
+
+._myfirstherosection {
+    max-width: 400px;
+    outline: 1px solid red;
+
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        background-color: $emerald;
+        color: $light;
+        border-radius: 5px;
+    }
+
+    button {
+        border-radius: 7px;
+        border: transparent;
+        background-color: $emerald;
+        color: $light;
+        padding: 10px;
+    }
+
+    p {
+        color: $concrete;
+
+        span {
+            color: $emerald;
+            font-weight: 600;
+
+            border-bottom: 1px solid $lightgrey2;
+            transition: border-bottom 0.5s ease-out;
+
+
+            &:hover {
+                border-bottom: 1px solid $emerald;
+            }
+        }
+    }
+}
