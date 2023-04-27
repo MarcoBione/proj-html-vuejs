@@ -40,11 +40,44 @@
 
             </div>
         </section>
-
     </div>
+
+    <section class="container d-flex justify-content-between align-items-center px-5 py-3 debug">
+
+        <div>
+            <img src="/course-portal/images/client-logo-01.png" alt="">
+        </div>
+
+        <div>
+            <img src="/course-portal/images/client-logo-02.png" alt="">
+        </div>
+
+        <div>
+            <img src="/course-portal/images/client-logo-03.png" alt="">
+        </div>
+
+        <div>
+            <img src="/course-portal/images/client-logo-04.png" alt="">
+        </div>
+
+        <div>
+            <img src="/course-portal/images/client-logo-05.png" alt="">
+        </div>
+
+        <div>
+            <img src="/course-portal/images/client-logo-06.png" alt="">
+        </div>
+
+        <div>
+            <img src="/course-portal/images/client-logo-07.png" alt="">
+        </div>
+
+    </section>
 </template>
 
 <script>
+import { store } from '../store';
+
 export default {
 
     name: 'HeroMainComponent',
@@ -56,9 +89,12 @@ export default {
 
     data() {
         return {
-
+            store,
         }
     },
+    mounted() {
+        console.log(store.img.firstlogo);
+    }
 }
 </script>
 
