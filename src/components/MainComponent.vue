@@ -14,7 +14,8 @@ export default {
     name: 'MainComponent',
 
     components: {
-        HeroMainComponent
+        HeroMainComponent,
+
     },
 
     data() {

@@ -15,15 +15,18 @@ $lightcrema: #F5F1ED;
 $indac: #3F3A64;
 $lightindac: #8C89A2;
 
+.debug {
+    outline: 1px solid red;
+}
 
 
 ._myfirstherosection {
-    max-width: 400px;
     outline: 1px solid red;
 
     h1 {
         font-size: 2.5rem;
         font-weight: 600;
+        color: $indac;
     }
 
     h3 {
@@ -58,4 +61,24 @@ $lightindac: #8C89A2;
             }
         }
     }
+}
+
+._myheroimg {
+    border-radius: 50%;
+    width: 570px;
+}
+
+._myposition02 {
+    top: 200px;
+    right: 5px;
+}
+
+._myposition08 {
+    top: 150px;
+    left: 0;
+}
+
+._myposition07 {
+    top: 350px;
+    right: 40px;
 }
