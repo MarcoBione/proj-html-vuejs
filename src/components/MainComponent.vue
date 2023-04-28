@@ -5,6 +5,7 @@
         <MainSecondComponent />
         <MainThirdComponentVue />
         <MainFourthComponentVue />
+        <MainFifthComponentVue />
     </main>
 </template>
 
@@ -17,6 +18,7 @@ import MainFirstComponent from './MainFirstComponent.vue';
 import MainSecondComponent from './MainSecondComponent.vue';
 import MainThirdComponentVue from './MainThirdComponent.vue';
 import MainFourthComponentVue from './MainFourthComponent.vue';
+import MainFifthComponentVue from './MainFifthComponent.vue';
 
 export default {
 
@@ -24,7 +26,7 @@ export default {
 
     components: {
         HeroMainComponent,
-        MainFirstComponent, MainSecondComponent, MainThirdComponentVue, MainFourthComponentVue,
+        MainFirstComponent, MainSecondComponent, MainThirdComponentVue, MainFourthComponentVue, MainFifthComponentVue,
     },
 
     data() {

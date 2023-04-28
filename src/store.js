@@ -225,5 +225,41 @@ export const store = reactive({
             stats: 'Blog posts'
         },
 
+    ],
+    mostviewed: [
+        {
+            name: 'Become a better blogger : Content planning'
+        },
+        {
+            name: 'Promoting Your Online Business on Pinterest'
+        },
+        {
+            name: 'Gamifications and Game-Based Learning'
+        },
+        {
+            name: 'Design an Online Course from Expert\'s Perspective'
+        },
+        {
+            name: 'Why Online Courses Are the Future of Education'
+        },
+
+    ],
+    mostviewedcards: [
+        {
+            type: 'Artist',
+            name: 'Brush Strokess Energize Trees in Paintings',
+            when: 'May 15, 2020',
+            viewers: '688',
+            img: 'artist-blog-03-480x352.jpeg',
+            id: '01',
+        },
+        {
+            type: 'Artist',
+            name: 'Pocket-sized Notebooks Hold Miniature Paintings',
+            when: 'May 15, 2020',
+            viewers: '603',
+            img: 'artist-blog-01-480x352.jpg',
+            id: '02',
+        },
     ]
 });
