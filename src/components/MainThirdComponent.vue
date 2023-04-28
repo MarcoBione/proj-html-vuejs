@@ -18,7 +18,7 @@
 
                 <div class="col d-flex p-4 flex-column justify-content-between" v-for="card, index in   store.learners ">
 
-                    <div class="p-4 border border-2 rounded-3">
+                    <div class="p-4 border border-2 rounded-3 bg-white">
 
                         <div>
                             <div>
@@ -40,6 +40,19 @@
             </div>
         </div>
 
+        <!-- section for promo -->
+        <div class="text-center py-5 container position-relative">
+
+            <p class="_mydarktxt m-0">Start today for getting <span class="_mytxt">Online Certification</span></p>
+            <h2 class="_mydarktxt fw-bolder mb-4">You can be your own guiding star with our help!</h2>
+
+            <button class="btn _mybtn">Get started now -></button>
+
+            <img src="/course-portal/images/maxcoach-shape-02.png" alt="shape01" class="position-absolute _shape01">
+            <img src="/course-portal/images/maxcoach-shape-01.png" alt="shape02" class="position-absolute _shape02">
+            <img src="/course-portal/images/maxcoach-shape-09.png" alt="shape03" class="position-absolute _shape03">
+
+        </div>
 
     </div>
 </template>
@@ -68,5 +81,21 @@ export default {
     overflow-y: auto;
     width: 100%;
     height: auto;
+}
+
+._shape01 {
+    bottom: 0;
+    right: 0;
+}
+
+._shape02 {
+
+    top: 50%;
+    left: 0;
+}
+
+._shape03 {
+    top: 0;
+    left: 30%;
 }
 </style>
