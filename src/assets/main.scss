@@ -1,19 +1,15 @@
+@use './palette.scss' as *;
 @import 'bootstrap/scss/bootstrap';
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+
+
 
 * {
     font-family: 'Poppins', sans-serif;
 }
 
-$light: #FFFFFF;
-$concrete : #696969;
-$emerald: #20AD96;
-$lightgrey: #F5F7FA;
-$lightgrey2: #F8F8F8;
-$lightcrema: #F5F1ED;
-$indac: #3F3A64;
-$lightindac: #8C89A2;
+
 
 .debug {
     outline: 1px solid red;
@@ -83,14 +79,43 @@ $lightindac: #8C89A2;
     right: 40px;
 }
 
-._myfirstmainsection {
+._mybg {
     background-color: $lightgrey;
 
-    button {
+    ._mybtn {
         border-radius: 7px;
         border: transparent;
         background-color: $emerald;
         color: $light;
         padding: 10px;
+    }
+}
+
+._mylighttxt {
+    color: $concrete;
+    opacity: 70%;
+}
+
+._mydarktxt {
+    color: $indac;
+}
+
+._mytxt {
+    color: $emerald;
+}
+
+._mycardparagraph {
+    color: $concrete;
+    margin: 0;
+}
+
+._mycardbtn {
+    background-color: transparent;
+    transition: color 0.3s;
+    font-weight: 600;
+    padding: 5px 0;
+
+    &:hover {
+        color: $emerald;
     }
 }

@@ -143,26 +143,28 @@ export const store = reactive({
             studends: '76',
             id: '06'
         },
+    ],
+
+    smartTutoring: [
+        {
+            name: 'Customize Preferences',
+            img: 'home-2-image-box-01.png',
+            infographic: 'Learners are given the right to arrange and customize their study schedule and timetable based on preferences.',
+            btninfo: 'Start Here ->'
+        },
+        {
+            name: 'Cloud Storage',
+            img: 'about-us-02-image-box-02.png',
+            infographic: 'You can store online lessons via online cloud or download to your device and revise lessons on the way.',
+            btninfo: 'Get Free Quote ->'
+        },
+        {
+            name: 'Multimedia Channels',
+            img: 'home-2-image-box-03.png',
+            infographic: 'We provide study materials with various formats: video, audio, slides, doc, prints, books and applications.',
+            btninfo: 'Start Now ->'
+        },
+
+
     ]
 });
-
-
-
-/*
-<div class="col d-flex py-2 align-items-center">
-                    <div class="circular-portrait">
-                        <img src="/course-portal/images/course-02-480x298.jpg" alt="Author01">
-                    </div>
-                    <div>
-                        <div>
-                            <p class="_mytxt">$40<small>.00</small></p>
-                            <p>Learning to write as a professional Author</p>
-                        </div>
-                        <div class="d-flex">
-                            <p>20 lessons</p>
-                            <p>50 studends</p>
-                        </div>
-                    </div>
-
-                </div>
-                */

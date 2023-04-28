@@ -1,12 +1,12 @@
 <template>
-    <div class="_myfirstmainsection">
+    <div class="_mybg">
 
-        <div class="container">
+        <div class="container py-4">
 
             <div class="text-center">
-                <p class="text-uppercase">Stimulated to learn</p>
+                <p class="text-uppercase _mylighttxt">Stimulated to learn?</p>
 
-                <h2>Featured Online Courses</h2>
+                <h2 class="_mydarktxt fw-bolder">Featured Online Courses</h2>
             </div>
 
             <div class="row">
@@ -17,7 +17,7 @@
                     </div>
                     <div>
                         <div>
-                            <p class="_mytxt"><span v-if="card.price >= 0">$</span>{{ card.price }}<small
+                            <p class="_mytxt fw-bolder"><span v-if="card.price >= 0">$</span>{{ card.price }}<small
                                     v-if="card.price >= 0">.00</small></p>
                             <p>{{ card.infocourse }}</p>
                         </div>
@@ -31,7 +31,7 @@
             </div>
 
             <div class="text-center py-3">
-                <button>
+                <button class="_mybtn">
                     View all courses ->
                 </button>
             </div>

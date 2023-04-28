@@ -8,7 +8,7 @@
             </div>
 
             <div class="py-3">
-                <button>
+                <button class="_mybtn">
                     {{ btninfo }}
                 </button>
             </div>
