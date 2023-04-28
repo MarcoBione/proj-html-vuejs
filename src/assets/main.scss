@@ -93,7 +93,6 @@
 
 ._mylighttxt {
     color: $concrete;
-    opacity: 70%;
 }
 
 ._mydarktxt {
@@ -118,4 +117,20 @@
     &:hover {
         color: $emerald;
     }
+}
+
+._mydownloadbtn {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid $concrete;
+    color: $emerald;
+
+    transition: border-bottom 0.3s;
+
+    &:hover {
+        border-bottom: 1px solid $emerald;
+    }
+
 }

@@ -32,6 +32,52 @@
                     </div>
                 </div>
 
+                <!-- second part -->
+
+                <div class="d-flex align-items-center py-5">
+
+                    <!-- sx section -->
+                    <div class="w-50 py-4 position-relative">
+
+                        <img class="position-absolute _myshape01" src="/course-portal/images/maxcoach-shape-05-150x150.png"
+                            alt="">
+
+                        <img class="position-absolute _myshape02" src="/course-portal/images/maxcoach-shape-07.png" alt="">
+
+                        <div class="position-relative text-center _myvideo">
+
+                            <img class="rounded-3 _myvideopreview shadow-lg"
+                                src="/course-portal/images/home-2-popup-video-poster.jpg" alt="video_preview">
+
+                            <div class="position-absolute text-center _myyoutube">
+                                <img src="/course-portal/images/icon-youtube-play.png" alt="youtube_play_button">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- dx section -->
+                    <div class="w-50 py-4">
+                        <div class="text">
+                            <p class="text-uppercase _mylighttxt">Get started <span
+                                    class="_mydarktxt fw-bolder">effortlessly</span>
+                            </p>
+                            <h2 class="_mydarktxt fw-bold">Enjoy Our <span class="_mytxt fw-lighter">Companionship</span>
+                            </h2>
+                            <p class="_mylighttxt">Sneek peek into what has in store for you on our online teaching and
+                                mentoring portal. Seek for some hidden hints of early-bird rewards as well.
+                            </p>
+
+                            <button class="_mydownloadbtn">
+                                Download free guide book ->
+                            </button>
+
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
         </div>
     </div>
@@ -50,7 +96,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-img {
+.row img {
     width: 200px;
     height: 176px;
     display: block;
@@ -58,5 +104,34 @@ img {
 
 ._mysecondsectionrounded {
     border-bottom-right-radius: 800px;
+}
+
+._myvideopreview {
+    width: 500px;
+
+}
+
+._myyoutube {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+._myvideo {
+    scale: 95%;
+    transition: scale 0.5s;
+
+    &:hover {
+        scale: 100%;
+    }
+}
+
+._myshape01 {
+    top: 25%;
+}
+
+._myshape02 {
+    right: 0;
+    bottom: 0;
 }
 </style>
