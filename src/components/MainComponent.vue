@@ -3,6 +3,7 @@
         <HeroMainComponent :herotitle="store.title" :subtitle="store.subtitle" :btninfo="store.btninfo" />
         <MainFirstComponent />
         <MainSecondComponent />
+        <MainThirdComponentVue />
     </main>
 </template>
 
@@ -13,13 +14,15 @@ import HeroMainComponent from './HeroMainComponent.vue';
 
 import MainFirstComponent from './MainFirstComponent.vue';
 import MainSecondComponent from './MainSecondComponent.vue';
+import MainThirdComponentVue from './MainThirdComponent.vue';
 
 export default {
 
     name: 'MainComponent',
 
     components: {
-        HeroMainComponent, MainFirstComponent, MainSecondComponent,
+        HeroMainComponent,
+        MainFirstComponent, MainSecondComponent, MainThirdComponentVue,
     },
 
     data() {

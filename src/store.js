@@ -166,5 +166,41 @@ export const store = reactive({
         },
 
 
+    ],
+
+    learners: [
+        {
+            title: 'High level of efficiency and scientific teaching methods',
+            paragraph: 'I am free to learn at my own place, follow my own schedule and choos the subject i want to learn from the syllabus. Great study portal for people like me.',
+            name: 'Mina Hollace',
+            occupation: 'Freelancer',
+            id: '1',
+            profileimg: 'testimonial-avata-02.jpg',
+        },
+        {
+            title: 'Professional team of specialists and passionate mentors at reach',
+            paragraph: 'I need to get a certification in English proficiency and MaxCoach is my best choise. Their tutors are smart and professional when dealing whit students.',
+            name: 'Madley pondor',
+            occupation: 'IT Specialist',
+            id: '2',
+            profileimg: 'testimonial-avata-04.jpg',
+        },
+        {
+            title: 'The MaxCoach team works really hard to ensure high quality',
+            paragraph: 'I am happy whit their arrangement of lessons and subjects. They reflect a scientific investigation into effective methods to be adopted for learners of all levels.',
+            name: 'Luvic Dubble',
+            occupation: 'Private Tutor',
+            id: '3',
+            profileimg: 'testimonial-avata-01.jpg',
+        },
+        {
+            title: 'It\'s a choise of quality for people with special needs',
+            paragraph: 'I am a very strict person so i require everything to be organized and neat. Then, i\'ll be able to make things right and shine. MaxCoach guy just got me.',
+            name: 'Florence Themes',
+            occupation: 'Multimedia Admin',
+            id: '4',
+            profileimg: 'testimonial-avata-03.jpg',
+        },
+
     ]
 });
