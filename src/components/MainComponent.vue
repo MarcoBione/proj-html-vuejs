@@ -1,6 +1,7 @@
 <template>
     <main>
         <HeroMainComponent :herotitle="store.title" :subtitle="store.subtitle" :btninfo="store.btninfo" />
+        <MainFirstComponent />
     </main>
 </template>
 
@@ -9,13 +10,14 @@ import { store } from '../store';
 
 import HeroMainComponent from './HeroMainComponent.vue';
 
+import MainFirstComponent from './MainFirstComponent.vue';
+
 export default {
 
     name: 'MainComponent',
 
     components: {
-        HeroMainComponent,
-
+        HeroMainComponent, MainFirstComponent,
     },
 
     data() {

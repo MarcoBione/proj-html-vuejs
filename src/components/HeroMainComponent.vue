@@ -91,9 +91,6 @@ export default {
         return {
             store,
         }
-    },
-    mounted() {
-        console.log(store.img.firstlogo);
     }
 }
 </script>

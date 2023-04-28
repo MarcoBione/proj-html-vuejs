@@ -82,3 +82,15 @@ $lightindac: #8C89A2;
     top: 350px;
     right: 40px;
 }
+
+._myfirstmainsection {
+    background-color: $lightgrey;
+
+    button {
+        border-radius: 7px;
+        border: transparent;
+        background-color: $emerald;
+        color: $light;
+        padding: 10px;
+    }
+}
