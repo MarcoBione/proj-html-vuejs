@@ -202,5 +202,28 @@ export const store = reactive({
             profileimg: 'testimonial-avata-03.jpg',
         },
 
+    ],
+    maxCoachData: [
+        {
+            name: 'Successfully trained',
+            number: '1790',
+            stats: 'Enrolled Learners'
+        },
+        {
+            name: 'Proudly Received',
+            number: '19',
+            stats: 'Countrywide awards'
+        },
+        {
+            name: 'Firmly Established',
+            number: '24',
+            stats: 'Local branches'
+        },
+        {
+            name: 'Getting Featured On',
+            number: '1090',
+            stats: 'Blog posts'
+        },
+
     ]
 });
