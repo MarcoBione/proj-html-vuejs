@@ -93,7 +93,7 @@ export const store = reactive({
     title: 'Distant learning for further expansion',
     subtitle: 'Learning is a life-long journey that in fact we never find the terminate stop. Stop searching, enjoy the process.',
     btninfo: 'Download free guide',
-
+    //data array
     cardInfo: [
         {
             price: '40',
@@ -144,7 +144,6 @@ export const store = reactive({
             id: '06'
         },
     ],
-
     smartTutoring: [
         {
             name: 'Customize Preferences',
@@ -167,7 +166,6 @@ export const store = reactive({
 
 
     ],
-
     learners: [
         {
             title: 'High level of efficiency and scientific teaching methods',

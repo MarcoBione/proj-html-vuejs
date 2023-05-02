@@ -7,15 +7,16 @@
 
             <!-- navigation bar -->
             <nav class="d-flex align-items-center">
-                <div class="dropdown">
-                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
-                        v-for="title, index in store.headerMenu">
+                <div class="dropdown" v-for="title, index in store.headerMenu">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         {{ title.name }}
                     </button>
                     <ul class="dropdown-menu">
-                        <li v-for="item, index in store.headerMenu.items"><a class="dropdown-item" href="#">{{ item }}</a>
+                        <li v-for="item, i in store.headerMenu[index].items"><a class="dropdown-item" href="#">{{ item
+                        }}</a>
                         </li>
                     </ul>
+
                 </div>
 
                 <!-- login -->

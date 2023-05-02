@@ -20,6 +20,8 @@ import MainThirdComponentVue from './MainThirdComponent.vue';
 import MainFourthComponentVue from './MainFourthComponent.vue';
 import MainFifthComponentVue from './MainFifthComponent.vue';
 
+import FooterComponent from './FooterComponent.vue';
+
 export default {
 
     name: 'MainComponent',
@@ -27,6 +29,7 @@ export default {
     components: {
         HeroMainComponent,
         MainFirstComponent, MainSecondComponent, MainThirdComponentVue, MainFourthComponentVue, MainFifthComponentVue,
+        FooterComponent
     },
 
     data() {
